@@ -8,6 +8,7 @@ The examples folder contains example solutions across a variety of Google Cloud 
 * [BigQuery Cross Project Slot Monitoring](examples/bigquery-cross-project-slot-monitoring) - Solution to help monitoring slot utilization across multiple projects, while breaking down allocation per project.
 * [BigQuery Group Sync For Row Level Access](examples/bigquery-row-access-groups) - Sample code to synchronize group membership from G Suite/Cloud Identity into BigQuery and join that with your data to control access at row level.
 * [Cloud Composer Examples](examples/cloud-composer-examples) - Examples of using Cloud Composer, GCP's managed Apache Airflow service.
+* [Cloud Dataflow and Cloud Bigtable Cyptocurrencies Exchange Realtime Example](examples/cryptorealtime) - Apache Beam example that reads from the Crypto Exchanges WebSocket API and saves the feed in Cloud Bigtable. Real time visualization from Bigtable running on Flask server are included.
 * [CloudML Bank Marketing](examples/cloudml-bank-marketing) - Notebook for creating a classification model for marketing using CloudML.
 * [CloudML Bee Health Detection](examples/cloudml-bee-health-detection) - Detect if a bee is unhealthy based on an image of it and its subspecies.
 * [CloudML Energy Price Forecasting](examples/cloudml-energy-price-forecasting) - Predicting the future energy price based on historical price and weather.
@@ -15,7 +16,6 @@ The examples folder contains example solutions across a variety of Google Cloud 
 * [CloudML Sentiment Analysis](examples/cloudml-sentiment-analysis) - Sentiment analysis for movie reviews using TensorFlow `RNNEstimator`.
 * [CloudML TensorFlow Profiling](examples/tensorflow-profiling-examples) - TensorFlow profiling examples for training models with CloudML
 * [Dataflow BigQuery Transpose Example](examples/dataflow-bigquery-transpose) - An example pipeline to transpose/pivot/rotate a BigQuery table.
-* [Dataflow BigTable CyptoCurrencies Exchange RealTime Example](examples/cryptorealtime) - Apache Beam example that reads from the Crypto Exchanges WebSocket API and saves the feed in Cloud Bigtable. Real time visualization from BigTable running on Flask server in included.
 * [Dataflow Elasticsearch Indexer](examples/dataflow-elasticsearch-indexer) - An example pipeline that demonstrates the process of reading JSON documents from Cloud Pub/Sub, enhancing the document using metadata stored in Cloud Bigtable and indexing those documents into [Elasticsearch](https://www.elastic.co/).
 * [Dataflow Python Examples](examples/dataflow-python-examples) - Various ETL examples using the Dataflow Python SDK.
 * [Dataflow Scala Example: Kafka2Avro](examples/dataflow-scala-kafka2avro) - Example to read objects from Kafka, and persist them encoded in Avro in Google Cloud Storage, using Dataflow with SCIO.
