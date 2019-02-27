@@ -88,7 +88,7 @@ gcloud compute instances add-tags crypto-driver --tags="crypto-console" --zone=$
 
 ### Clone the repo
 ```console 
-git clone https://github.com/galic1987/professional-services
+git clone https://github.com/GoogleCloudPlatform/professional-services
 ```
 
 ### Build the pipeline
